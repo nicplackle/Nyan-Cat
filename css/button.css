@@ -1,0 +1,20 @@
+.wrapper {
+  margin-left: 45%;
+}
+
+.wrapper button {
+  height: 30px;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-top: 45%;
+}
+
+.img {
+  margin: auto;
+  display: inline-block;
+  font-size: 20px;
+}
+
+#dogeMeme {
+  visibility: hidden;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nyan Cat</title>
+    <link rel="stylesheet" type="text/css" href="css/background.css" />
+    <link rel="stylesheet" type="text/css" href="css/button.css" />
+  </head>
+  <body onload="hideBackground()">
+    <div class="wrapper">
+      <div id="button">
+        <button id="rainstart" type="button" onclick="myMov();showBackground()">
+          Start Cat Rain!
+        </button>
+      </div>
+
+      <img
+        src="img/Nyan-Cat.png"
+        id="nyanCatBackground"
+        alt="Nyan Cat Background"
+      />
+    </div>
+    <canvas id="canvasRegn" width="100%" height="100%" style="margin:100px;">
+    </canvas>
+
+    <script src="main.js"></script>
+  </body>
+</html>
